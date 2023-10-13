@@ -1,4 +1,4 @@
-package steve.dev.steve_security_sbRegLogEmailVerif.registration;
+package steve.dev.registrationApp.registration;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

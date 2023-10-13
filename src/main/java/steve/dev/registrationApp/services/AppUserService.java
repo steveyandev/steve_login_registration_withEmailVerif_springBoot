@@ -1,11 +1,11 @@
-package steve.dev.steve_security_sbRegLogEmailVerif.services;
+package steve.dev.registrationApp.services;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import steve.dev.steve_security_sbRegLogEmailVerif.repositories.AppUserRepository;
+import steve.dev.registrationApp.repositories.AppUserRepository;
 
 @Service
 @AllArgsConstructor

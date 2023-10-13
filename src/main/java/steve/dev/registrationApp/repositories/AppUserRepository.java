@@ -1,8 +1,8 @@
-package steve.dev.steve_security_sbRegLogEmailVerif.repositories;
+package steve.dev.registrationApp.repositories;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import steve.dev.steve_security_sbRegLogEmailVerif.appUser.AppUser;
+import steve.dev.registrationApp.appUser.AppUser;
 
 import java.util.Optional;
 

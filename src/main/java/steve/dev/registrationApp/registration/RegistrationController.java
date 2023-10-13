@@ -1,11 +1,10 @@
-package steve.dev.steve_security_sbRegLogEmailVerif.registration;
+package steve.dev.registrationApp.registration;
 
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import steve.dev.steve_security_sbRegLogEmailVerif.services.RegistrationService;
+import steve.dev.registrationApp.services.RegistrationService;
 
 @RestController
 @RequestMapping(path = "api/v1/registration")
