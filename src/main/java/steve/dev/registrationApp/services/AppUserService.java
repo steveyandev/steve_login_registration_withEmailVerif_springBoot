@@ -31,6 +31,8 @@ public class AppUserService implements UserDetailsService {
        boolean userExists= appUserRepository.findByEmail(appUser.getEmail())
         .isPresent();
        if(userExists){
+           //to impl check attributes are the same
+           // todo if email not confirmed send conf email
            throw  new IllegalStateException("email already exist(taken)");
        }
        String encodedPassword=bCryptPasswordEncoder.encode(
