@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @NoArgsConstructor
+@Entity
 public class ConfirmationToken {
 
     @SequenceGenerator(
@@ -20,7 +21,7 @@ public class ConfirmationToken {
     )
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
-            generator = "student_sequence")
+            generator = "confirmation_token_sequence")
     private Long id;
     @Column(nullable = false)
     private String token;
@@ -38,6 +39,7 @@ public class ConfirmationToken {
     name = "app_user_id"
     )
     private AppUser appUser;
+
 
     public ConfirmationToken(String token,
                              LocalDateTime createdAt,
